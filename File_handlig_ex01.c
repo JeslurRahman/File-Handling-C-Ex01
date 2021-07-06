@@ -100,7 +100,7 @@ int main()
 
     fclose(stu);
 
-    stu = fopen("student.dat","r");  // can reuse file pointe
+    stu = fopen("student.dat","r");  // could reuse an existing file pointer
 
     if(stu == NULL)
     {
@@ -150,7 +150,7 @@ int main()
 
     fclose(stu);
 
-    FILE *ptr;  // or create new file ponter
+    FILE *ptr;  //  could reuse an existing file pointer OR create new file pointer
 
     ptr = fopen("student.dat","r");
 
